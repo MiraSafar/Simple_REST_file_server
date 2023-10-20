@@ -9,12 +9,12 @@ Simple REST file server using Flask
 - nebo přes http://localhost:5000/upload, kde je potřeba v body poslat soubory přes form-data, kde je key-value pair "file=<soubory nebo soubory>" (viz screenshot z Postman testovací aplikace)
 # Download
 - http://localhost:5000/download/<file_name>
-- Example:
-    http://localhost:5000/download/dummy_file.txt
+Example:
+- http://localhost:5000/download/dummy_file.txt
 # Delete
 - http://localhost:5000/delete/<file_name>
-- Example:
-    http://localhost:5000/delete/dummy_file.txt
+Example:
+- http://localhost:5000/delete/dummy_file.txt
 # Výpis
 - http://localhost:5000/list?sort=<sort_type>&order=<asc_or_desc>
 - je možno vypsat seznam souborů podle následujících kritérií:
@@ -24,12 +24,12 @@ Simple REST file server using Flask
     file upload time
     file modification time
 - řazení je nastaveno primárně sestupné, ale možnost zvolit i sestupné
-- Example:
-http://localhost:5000/list (Default - lists files by name in ascending order)
-http://localhost:5000/list?oder=desc (lists files by name in descending order)
-http://localhost:5000/list?sort=size (lists files by size in ascending order)
-http://localhost:5000/list?sort=size&order=desc (lists files by size in descending order)
-http://localhost:5000/list?sort=size&order=asc (lists files by size in ascending order)
+Example:
+- http://localhost:5000/list (Default - lists files by name in ascending order)
+- http://localhost:5000/list?oder=desc (lists files by name in descending order)
+- http://localhost:5000/list?sort=size (lists files by size in ascending order)
+- http://localhost:5000/list?sort=size&order=desc (lists files by size in descending order)
+- http://localhost:5000/list?sort=size&order=asc (lists files by size in ascending order)
 - Acceptable URL query strings:
     sort = [type, size, upload_time, modification_time]
     order = [acs, desc]
