@@ -24,7 +24,7 @@ Example:
     file upload time
     file modification time
 - řazení je nastaveno primárně sestupné, ale možnost zvolit i sestupné
-Example:
+= Example:
 - http://localhost:5000/list (Default - lists files by name in ascending order)
 - http://localhost:5000/list?oder=desc (lists files by name in descending order)
 - http://localhost:5000/list?sort=size (lists files by size in ascending order)
