@@ -25,11 +25,11 @@ Simple REST file server using Flask
     file modification time
 - řazení je nastaveno primárně sestupné, ale možnost zvolit i sestupné
 - Example:
-    http://localhost:5000/list    --> Default - lists files by name in ascending order
-    http://localhost:5000/list?oder=desc  --> lists files by name in descending order
-    http://localhost:5000/list?sort=size  --> lists files by size in ascending order
-    http://localhost:5000/list?sort=size&order=desc  --> lists files by size in descending order
-    http://localhost:5000/list?sort=size&order=asc  --> lists files by size in ascending order
+http://localhost:5000/list (Default - lists files by name in ascending order)
+http://localhost:5000/list?oder=desc (lists files by name in descending order)
+http://localhost:5000/list?sort=size (lists files by size in ascending order)
+http://localhost:5000/list?sort=size&order=desc (lists files by size in descending order)
+http://localhost:5000/list?sort=size&order=asc (lists files by size in ascending order)
 - Acceptable URL query strings:
     sort = [type, size, upload_time, modification_time]
     order = [acs, desc]
