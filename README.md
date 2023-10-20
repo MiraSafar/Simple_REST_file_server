@@ -3,6 +3,9 @@ Simple REST file server using Flask
 
 - pokud budete používat jinou složku pro práci se soubory, tak musíte definovat její cestu ve <FILES_DIR>
 - Flask standartně běží na portu 5000
+
+# Running the app
+- "python main.py"
  
 # Upload
 - je možný po spuštění scriptu přes landing/index page na standartnim Flask portu http://localhost:5000/
