@@ -1,0 +1,3 @@
+# Simple REST file server required Python modules
+
+flask == 3.0.0
